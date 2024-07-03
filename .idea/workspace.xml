@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8f139fc-f421-46b1-91df-fe74f263dc57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Aluno Online.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/aluno_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/connection/mongo_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/connection/mongo_credencials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/repository/aluno_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/repository/user_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/verify.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hehDlP0vyA86URulmmgG3VqwLm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.aluno.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aluno_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aluno_repository.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo_credencials.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Matheus\PycharmProjects\Aluno Online\model\repository" />
+      <recent name="C:\Users\Matheus\PycharmProjects\Aluno Online\model\connection" />
+      <recent name="C:\Users\Matheus\PycharmProjects\Aluno Online" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f139fc-f421-46b1-91df-fe74f263dc57" name="Changes" comment="" />
+      <created>1717960333468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717960333468</updated>
+    </task>
+    <servers />
+  </component>
+</project>
