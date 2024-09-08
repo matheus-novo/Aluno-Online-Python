@@ -16,8 +16,8 @@ def init_login_manager(app):
         if user_data:
             return User(
                 str(user_data['_id']),
-                user_data['username'],
-                user_data['password'],
+                user_data['registro'],
+                user_data['senha'],
                 user_data['rules']
             )
         return None

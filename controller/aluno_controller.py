@@ -1,17 +1,32 @@
 from model.repository.aluno_repository import AlunoRepository
 from model.connection.mongo_connection import DBConnectionHandler
+from controller.user_controller import UserController
+from flask_bcrypt import Bcrypt
 
 connection_handler = DBConnectionHandler()
 connection_handler.connect_to_db()
 db_connection = connection_handler.get_db_connection()
 
+user_contoller = UserController()
+
+_bcrypt = Bcrypt()
+
 class AlunoController:
     def __init__(self, db_connection):
         self.repository = AlunoRepository(db_connection)
 
-    def create_aluno(self, nome, email, matricula, curso):
+    def create_aluno(self, aluno_request):
+        nome = aluno_request["nome"]
+        email = aluno_request["email"]
+        matricula = aluno_request["matricula"]
+        curso = aluno_request["curso"]
+
         aluno = {"nome": nome, "email": email, "matricula": matricula, "curso": curso, "cadeiras": {}}
-        self.repository.add(aluno)
+
+        if self.repository.add(aluno):
+            senha_temporaria = user_contoller.create_user(matricula, 'aluno')
+            return {'Senha Temporária': senha_temporaria}, 201
+        return {400: "BAD REQUEST"}
 
     def add_aluno(self, aluno):
         return self.repository.add(aluno)
