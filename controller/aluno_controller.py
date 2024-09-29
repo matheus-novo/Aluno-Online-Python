@@ -21,12 +21,12 @@ class AlunoController:
         matricula = aluno_request["matricula"]
         curso = aluno_request["curso"]
 
-        aluno = {"nome": nome, "email": email, "matricula": matricula, "curso": curso, "cadeiras": {}}
-
-        if self.repository.add(aluno):
-            senha_temporaria = user_contoller.create_user(matricula, 'aluno')
-            return {'Senha Temporária': senha_temporaria}, 201
-        return {400: "BAD REQUEST"}
+        if self.repository.get_one(matricula) != None:
+            aluno = {"nome": nome, "email": email, "matricula": matricula, "curso": curso, "cadeiras": {}}
+            if self.repository.add(aluno):
+                senha_temporaria = user_contoller.create_user(matricula, 'aluno')
+                return {'Senha Temporária': senha_temporaria}, 201
+            return {400: "BAD REQUEST"}
 
     def add_aluno(self, aluno):
         return self.repository.add(aluno)

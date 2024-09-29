@@ -18,6 +18,6 @@ def init_login_manager(app):
                 str(user_data['_id']),
                 user_data['registro'],
                 user_data['senha'],
-                user_data['rules']
+                #user_data['rules']
             )
         return None
