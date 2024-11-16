@@ -18,11 +18,15 @@ class UserController:
     def __init__(self):
         pass
 
-    def create_user(self, registro, rule):
-        senha_temp = password_generator.gerar(6)
+    def create_user(self, registro, role):
+        try:
+            senha_temp = password_generator.gerar(6)
+        except:
+            senha_temp = "Senha@123"
+
         senha_temp_hash = _bcrypt.generate_password_hash(senha_temp).decode('utf-8')
 
-        user = {'registro': registro, 'senha': senha_temp_hash, 'rule': rule}
+        user = {'registro': registro, 'senha': senha_temp_hash, 'role': role}
 
         print(senha_temp)
         print(senha_temp_hash)
@@ -40,5 +44,4 @@ class UserController:
 
     def get_by_id(self, user_id):
         return user_repository.get_user_by_id(user_id)
-
 
