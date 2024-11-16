@@ -7,13 +7,6 @@
     <list default="true" id="c8f139fc-f421-46b1-91df-fe74f263dc57" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/controller/professor_controller.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/model/repository/professor_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprints/aluno_blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/aluno_blueprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprints/user_blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/user_blueprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/aluno_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/aluno_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/user_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/repository/aluno_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/repository/aluno_repository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/required_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/security/required_roles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,13 +105,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727633277839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Melhora as mensagens de retorno das funções.">
+      <option name="closed" value="true" />
+      <created>1731739653569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731739653569</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
     <MESSAGE value="adicionada a feature de login" />
     <MESSAGE value="Adicionado login e autorização via JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado login e autorização via JWT" />
+    <MESSAGE value="Melhora as mensagens de retorno das funções." />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhora as mensagens de retorno das funções." />
   </component>
 </project>
